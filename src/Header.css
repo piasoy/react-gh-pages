@@ -1,0 +1,44 @@
+.header-text{
+    margin-top: 7%;
+    margin-bottom: 7%;
+    display: block;
+   
+}
+.box-row{
+    width: 90%;
+    margin: auto;
+}
+.box{
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid black 1px;
+}
+
+.box:hover{
+    background-color:#F2D5CE;
+}
+
+a, a:visited, a:hover, a:active{
+    color: black;
+    text-decoration: none;
+   
+}
+
+.bottom-row{
+    margin-bottom: 5%;
+}
+
+
+
+/* Portrait */
+@media only screen 
+  /* and (min-device-width: 768px)  */
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .header-col-1, .header-col-2{
+        flex:50;
+    }
+}

@@ -1,0 +1,126 @@
+.results-container{
+    margin: 4%;
+}
+
+
+.sticker, .itemDiv>p{
+    z-index:50;
+    /* background-color: #F2A88D; */
+    opacity: .8;  
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: solid #F2A88D 1px;
+    border-radius: 100%;
+}
+
+.pickedItem{
+    background-color: #F2A88D;
+}
+.carousel-caption p{
+    color:black;
+    font-size: .8rem;
+
+    background-color:#F2D5CE;
+    padding: 0;
+    margin: 0;
+    opacity: .8;
+}
+
+.itemPrice {
+    margin-top:5px;
+}
+
+.itemPrice{
+    font-weight: bolder;
+}
+.carousel-caption{
+    bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.carousel-indicators{
+    display: none;
+}
+
+.itemDiv{
+    height: 44vh;
+}
+
+
+.carousel-item.active{
+    display: flex;
+}
+
+.col-sm{
+    border: solid gray 1px;
+}
+
+.itemDiv .w-100{
+    width: auto!important;
+    max-width: 75%;
+    max-height: 100%;
+    margin: auto!important;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-size: 100%, 100%;
+  background-image: none;
+ 
+}
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 30px;
+  color:#F2A88D;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 30px;
+  color:#F2A88D;
+}
+
+.wardrobe-summary{
+    text-align: left!important;
+    font-family: 'Raleway', sans-serif;
+}
+
+.wardrobe-summary h4{
+    font-family: 'Baskervville', serif;
+}
+
+.picks{
+    border: none;
+}
+
+.total{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #F2A88D; 
+    border: solid #F2A88D 1px;
+    font-size: 1.5rem;
+}
+
+.total:hover{
+    background-color: white; 
+}
+
+.wardrobe{
+    margin-left: 10px;
+    background-color:#4A738C;
+    border-color: #4A738C;
+    height: 50px;
+    font-size: 2rem;
+    color: white;
+}
+
+.wardrobe:hover{
+    background-color:#F2A88D;
+    border-color: #4A738C!important;
+    color: black;
+}

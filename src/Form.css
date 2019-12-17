@@ -1,0 +1,49 @@
+.form-wrapper{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.question-form{ 
+    margin:auto;
+    border: 1px solid #F2A88D;
+    padding: 20px;
+}
+.form-group{
+    margin-bottom: 2rem;
+}
+
+.dropdownHeading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
+
+.buttonWidth{
+    width:100%;
+
+}
+
+.btn-primary, .btn-primary:visited, .btn-primary:focus, .show>.btn-primary.dropdown-toggle, .show>.btn-primary.dropdown-toggle:focus{
+    color: black!important;
+    background-color: #F2A88D!important;
+    border-color:  #F2A88D!important;
+    box-shadow: #F2A88D!important;
+}
+
+
+.btn-primary:hover, .btn-primary:focus{
+    color: black;
+    background-color:white;
+    border-color:  #F2A88D!important;
+    box-shadow:  #F2A88D!important;
+}
+
+.submitButton{
+    font-size: 1.5rem;
+    color: white!important;
+    background-color:#4A738C!important;
+    border-color: #4A738C!important;
+   
+}
+
+.colorPicker{
+    width: auto!important;
+}

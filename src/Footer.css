@@ -1,0 +1,15 @@
+.footer {
+    padding:20px;
+    background-color:#F2D5CE;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* .footer p {
+    line-height: 40px;
+} */
+
+.social-media-icon img{
+    width: 22%;
+    padding-left:5px;
+   
+}
