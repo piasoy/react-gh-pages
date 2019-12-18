@@ -13,11 +13,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: solid black 1px;
+    border: solid  #D7D7D7 1px !important;
 }
 
 .box:hover{
     background-color:#F2D5CE;
+    border: solid black 1px !important;
 }
 
 a, a:visited, a:hover, a:active{

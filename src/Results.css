@@ -57,7 +57,7 @@
 }
 
 .col-sm{
-    border: solid gray 1px;
+    border: solid #D7D7D7 1px;
 }
 
 .itemDiv .w-100{
@@ -107,12 +107,12 @@
 }
 
 .total:hover{
-    background-color: white; 
+    color: white; 
 }
 
 .wardrobe{
     margin-left: 10px;
-    background-color:#4A738C;
+    background-color: #4A738C;
     border-color: #4A738C;
     height: 50px;
     font-size: 2rem;
@@ -120,7 +120,8 @@
 }
 
 .wardrobe:hover{
-    background-color:#F2A88D;
-    border-color: #4A738C!important;
+    background-color:#4A738C;
+    border-color: #7BB38B!important;
+    /* border-color: #4A738C!important; */
     color: black;
 }

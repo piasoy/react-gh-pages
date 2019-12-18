@@ -63,7 +63,7 @@ class Results extends React.Component {
 
 
         let address = 'http://api.shopstyle.com/api/v2/products/?'
-        
+
 
         let color = `c=${handle.color}`
         let size = `s=${handle.csize}`
@@ -220,7 +220,7 @@ class Results extends React.Component {
         }
         if(this.state.currentTop.picked === true){
             this.setState({
-                currentDress : {
+                currentTop : {
                   ...this.state.currentTop,
                   picked : false,
                   [name] : '',
@@ -469,7 +469,7 @@ class Results extends React.Component {
                             className={this.state.currentTop.buttonClass}
                             onClick={() => {this.handleTop('price',  top.salePrice ? top.salePrice : top.price, top.clickUrl )}}
                         >
-                        Pick
+                        ♡
                         </p>
                         <img
                             className="d-block w-100"
@@ -490,7 +490,7 @@ class Results extends React.Component {
                             className={this.state.currentCardigan.buttonClass}
                             onClick={() => {this.handleCardigan('price',  cardigan.salePrice ? cardigan.salePrice : cardigan.price, cardigan.clickUrl )}}
                         >
-                        Pick
+                        ♡
                         </p>
                         <img
                             className="d-block w-100"
@@ -512,7 +512,7 @@ class Results extends React.Component {
                             className={this.state.currentSkirt.buttonClass}
                             onClick={() => {this.handleSkirt('price',  skirt.salePrice ? skirt.salePrice : skirt.price, skirt.clickUrl )}}
                         >
-                        Pick
+                        ♡
                         </p>
                         <img
                             className="d-block w-100"
@@ -534,7 +534,7 @@ class Results extends React.Component {
                             className={this.state.currentPant.buttonClass}
                             onClick={() => {this.handlePant('price',  pant.salePrice ? pant.salePrice : pant.price, pant.clickUrl )}}
                         >
-                        Pick
+                        ♡
                         </p>
                         <img
                             className="d-block w-100"
@@ -556,7 +556,7 @@ class Results extends React.Component {
                             className={this.state.currentShoe.buttonClass}
                             onClick={() => {this.handleShoe('price',  shoe.salePrice ? shoe.salePrice : shoe.price, shoe.clickUrl )}}
                         >
-                        Pick
+                        ♡
                         </p>
                        <img
                             className="d-block w-100"
