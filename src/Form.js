@@ -104,7 +104,7 @@ class Questions extends React.Component {
               colorChoice = "orange";
           }
 
-          let url = `http://localhost:3000/results/${this.state.clothingSize}/${this.state.shoeSize}/${this.state.budget}/${colorChoice}`
+          let url = `https://bento-box-app.herokuapp.com/results/${this.state.clothingSize}/${this.state.shoeSize}/${this.state.budget}/${colorChoice}`
           console.log(url)
         
         return (
