@@ -63,6 +63,7 @@ class Results extends React.Component {
 
 
         let address = 'http://api.shopstyle.com/api/v2/products/?'
+        let key = 'pid=uid4900-32133930-29'
 
 
         let color = `c=${handle.color}`

@@ -21,6 +21,9 @@
 
 }
 
+.btn{
+    font-size: 1.1rem;
+}
 .btn-primary, .btn-primary:visited, .btn-primary:focus, .show>.btn-primary.dropdown-toggle, .show>.btn-primary.dropdown-toggle:focus{
     color: black!important;
     background-color: #F2A88D!important;
