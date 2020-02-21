@@ -89,19 +89,53 @@ class Questions extends React.Component {
               colorChoice = "pink";
               break;
             case '9c27b0':
-               colorChoice = "purple";
-              break;
+                colorChoice = "purple";
+                break;
+            case '673ab7':
+                colorChoice = "purple";
+                break;
+            case '3f51b5': 
+                colorChoice = "blue";
+                break;
             case '2196f3': 
-              colorChoice = "blue";
-              break;
+                colorChoice = "blue";
+                break;
+            case '03a9f4': 
+                colorChoice = "blue";
+                break;
+            case '00bcd4': 
+                colorChoice = "blue";
+                break;
+            case '009688':
+                colorChoice = "green";
+                break;
             case '4caf50':
-              colorChoice = "green";
-              break;
+                colorChoice = "green";
+                break;
+            case '8bc34a':
+                colorChoice = "green";
+                break;
+            case 'cddc39':
+                colorChoice = "green";
+                break;
             case 'ffeb3b':
-              colorChoice = "yellow";
-              break;
+                olorChoice = "yellow";
+                break;
+            case 'ffc107':
+                colorChoice = "orange";
+                break;
             case 'ff9800':
-              colorChoice = "orange";
+                colorChoice = "orange";
+                break;
+            case 'ff5722':
+                colorChoice = "orange";
+                break;
+            case '795548':
+                colorChoice = "brown";
+                break;
+            case '607d8b':
+                colorChoice = "gray";
+                 
           }
 
           let url = `https://bento-box-app.herokuapp.com/results/${this.state.clothingSize}/${this.state.shoeSize}/${this.state.budget}/${colorChoice}`
@@ -111,16 +145,7 @@ class Questions extends React.Component {
             <div className="container form-wrapper">
                 <div className="row">
                     <Form className="col-sm-5 question-form">
-                        {/* <Form.Group>
-                            <Form.Label>First, tell us your name</Form.Label>
-                            <Form.Control 
-                                type="text" 
-                                placeholder="first name" 
-                                name="firstname"
-                                value={this.state.firstname}
-                                onChange={this.handleChange}
-                            />
-                        </Form.Group> */}
+
                     
                         <p className="dropdownHeading">Please answer the following questions.</p>
                         <Dropdown> 
