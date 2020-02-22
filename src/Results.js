@@ -82,8 +82,8 @@ class Results extends React.Component {
     
     
         //freetext items
-        let freetextDress= 'sheath+work'
-        let freetextTops = 'sleeveless+blouse+work'
+        let freetextDress= 'day+tailored'
+        let freetextTops = 'sleeveless+blouse'
         let freetextCardigans ='crewneck'
         let freetextSkirts='pencil'
         let freetextPants = 'slim+tailored'
@@ -422,7 +422,7 @@ class Results extends React.Component {
 
     //open tabs for picked items
     getPicks = (e) =>{
-        // e.preventDefault();
+        e.preventDefault();
         if(this.state.currentDress.url){window.open(this.state.currentDress.url)}
         if(this.state.currentTop.url){window.open(this.state.currentTop.url)}
         if(this.state.currentCardigan.url){window.open(this.state.currentCardigan.url)}
@@ -436,9 +436,6 @@ class Results extends React.Component {
     
     render() {
 
-
-       
-       console.log('url', this.state.currentDress.url)
         let DressBox = this.state.dressResults.map((dress, index) =>{
             return <Carousel.Item className="itemDiv">
                         <p 

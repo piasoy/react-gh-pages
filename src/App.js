@@ -11,6 +11,7 @@ import {
 import './App.css';
 import Navigation from './Navigation.js'
 import Wardrobes from './Header.js'
+import How from './How.js'
 import Questions from './Form.js'
 import Results from './Results.js'
 import Footer from './Footer.js'
@@ -23,6 +24,7 @@ import Footer from './Footer.js'
           <Navigation />
             <Switch>
               <Route exact path="/" component={Wardrobes} />
+              <Route exact path="/how" component={How} />
               <Route path="/form" component={Questions} />
               <Route path="/results/:csize/:ssize/:budget/:color" component={Results} />
             </Switch>

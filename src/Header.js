@@ -22,24 +22,36 @@ class Wardrobes extends React.Component {
                 <div className="row box-row">
                     <Link className="col-sm-6 box" to="/form">
                          <h2>work</h2>
+                       
                     </Link>       
-                    <div className="col-sm box">
+                    <div className="col-sm box disabled">
                         <h2>maternity</h2>
+                        <p><i>coming soon</i></p>
+                      
+
                     </div>
-                    <div className="col-sm box">
+                    <div className="col-sm box disabled">
                         <h2>weekend</h2>
+                        <p><i>coming soon</i></p>
+
                     </div>
                 </div>
 
                 <div className="row box-row bottom-row">
-                    <div className="col-sm-3 box">
+                    <div className="col-sm-3 box disabled">
                         <h2>seasonal</h2>
+                        <p><i>coming soon</i></p>
+
                     </div>
-                    <div className="col-sm-3 box">
+                    <div className="col-sm-3 box disabled">
                         <h2>vacation</h2>
+                        <p><i>coming soon</i></p>
+
                     </div>
-                    <div className="col-sm box">
+                    <div className="col-sm box disabled">
                         <h2>special occasion</h2>
+                        <p><i>coming soon</i></p>
+
                     </div>
                 </div>
             </div>         

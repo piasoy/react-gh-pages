@@ -45,7 +45,7 @@ class Questions extends React.Component {
     }
    
     clothingSizeArr=[{id:81, label:"clothingSize", value:"XS (0-2)"}, {id:83, label:"clothingSize", value:"S (4-6)"}, {id:85, label:"clothingSize", value:"M (8-10)"}, {id:87, label:"clothingSize", value:"L (12-14)"}, {id:89, label:"clothingSize", value:"XL (16)"}]
-    shoeSizeArr=[{id:5, label:"shoeSize", value:"5"},{id:5.5, label:"shoeSize", value:"5.5"},{id:6, label:"shoeSize", value:""},{id:6.5, label:"shoeSize", value:"6.5"},{id:7, label:"shoeSize", value:"7"},{id:7.5, label:"shoeSize", value:"7.5"},{id:8, label:"shoeSize", value:"8"},{id:8.5, label:"shoeSize", value:"8.5"},{id:9, label:"shoeSize", value:"9"},{id:9.5, label:"shoeSize", value:"9.5"},{id:10, label:"shoeSize", value:"10"},{id:10.5, label:"shoeSize", value:"10.5"}, {id:11, label:"shoeSize", value:"11"},{id:11.5, label:"shoeSize", value:"11.5"}, {id:12, label:"shoeSize", value:"12"},{id:12.5, label:"shoeSize", value:"12.5"}]
+    shoeSizeArr=[{id:5, label:"shoeSize", value:"5"},{id:5.5, label:"shoeSize", value:"5.5"},{id:6, label:"shoeSize", value:"6"},{id:6.5, label:"shoeSize", value:"6.5"},{id:7, label:"shoeSize", value:"7"},{id:7.5, label:"shoeSize", value:"7.5"},{id:8, label:"shoeSize", value:"8"},{id:8.5, label:"shoeSize", value:"8.5"},{id:9, label:"shoeSize", value:"9"},{id:9.5, label:"shoeSize", value:"9.5"},{id:10, label:"shoeSize", value:"10"},{id:10.5, label:"shoeSize", value:"10.5"}, {id:11, label:"shoeSize", value:"11"},{id:11.5, label:"shoeSize", value:"11.5"}, {id:12, label:"shoeSize", value:"12"},{id:12.5, label:"shoeSize", value:"12.5"}]
     budgetArr =[{id:25, label:"budget", value:"max $25"}, {id:50, label:"budget", value:"max $50"}, {id:100, label:"budget", value:"max $100"}]
     dresscodeArr =[{id:1, label:"dresscode", value:"Very Formal (suits)"}, {id:1, label:"dresscode", value:"Very Casual (jeans, t-shirts)"}, {id:1, label:"dresscode", value:"Neither too formal nor too casual (slacks, blouses)"}]
      
@@ -119,7 +119,7 @@ class Questions extends React.Component {
                 colorChoice = "green";
                 break;
             case 'ffeb3b':
-                olorChoice = "yellow";
+                colorChoice = "yellow";
                 break;
             case 'ffc107':
                 colorChoice = "orange";
@@ -137,9 +137,10 @@ class Questions extends React.Component {
                 colorChoice = "gray";
                  
           }
+        let url = `https://bento-box-app.herokuapp.com/results/${this.state.clothingSize}/${this.state.shoeSize}/${this.state.budget}/${colorChoice}`
 
-          let url = `https://bento-box-app.herokuapp.com/results/${this.state.clothingSize}/${this.state.shoeSize}/${this.state.budget}/${colorChoice}`
-          console.log(url)
+          //let url = `http://localhost:3000/results/${this.state.clothingSize}/${this.state.shoeSize}/${this.state.budget}/${colorChoice}`
+            //   console.log(url)
         
         return (
             <div className="container form-wrapper">

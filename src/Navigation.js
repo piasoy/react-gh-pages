@@ -12,15 +12,16 @@ class Navigation extends React.Component {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link href="#link">How it works</Nav.Link>
-                        <NavDropdown title="Wardrobes" id="basic-nav-dropdown">
+                        <Nav.Link href="/how">How it works</Nav.Link>
+
+                        {/* <NavDropdown title="Wardrobes" id="basic-nav-dropdown">
                             <NavDropdown.Item href="/form">Work</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Maternity - coming soon</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Weekend - coming soon</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.4">Seasonal - coming soon</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.5">Vacation - coming soon</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.6">Special Occasion - coming soon</NavDropdown.Item>
-                        </NavDropdown>
+                            <NavDropdown.Item href="#action/3.2">Maternity - <i>coming soon</i></NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.3">Weekend - <i>coming soon</i></NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.4">Seasonal - <i>coming soon</i></NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.5">Vacation - <i>coming soon</i></NavDropdown.Item>
+                            <NavDropdown.Item href="#action/3.6">Special Occasion - <i>coming soon</i></NavDropdown.Item>
+                        </NavDropdown> */}
                         {/* <Nav.Link href="#link">Login</Nav.Link> */}
                     </Nav>
                   
